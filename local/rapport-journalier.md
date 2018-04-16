@@ -29,4 +29,5 @@
 
 # Semaine 02
 ## 16/04/2018
-- Création d'un nouveau dépôt Git public
+- Création d'un nouveau dépôt Git public.
+- Insatllation et configuration d'OverTheBox sur Raspberry pi 3.
