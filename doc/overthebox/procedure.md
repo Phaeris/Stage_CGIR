@@ -10,13 +10,13 @@ Installez l'image sur la microSD
 
 Branchez la RaspberryPi 3
 
-Sur votre poste, mettre une adresse ip sur 192.168.100.0/24 sauf 192.168.100.1 et configurez la route par defaut sur 192.168.100.1
+Sur votre poste, mettre une adresse ip sur 192.168.100.0/24 sauf 192.168.100.1 et configurez la route par défaut sur 192.168.100.1
 
 Dans un navigateur, allez sur http://overthebox.ovh (192.168.100.1) depuis votre ordinateur connecté au modem principal.
 
 Cliquez sur “Register”.
 
-Identifiez vous sur l’espace client.
+Identifiez-vous sur l’espace client.
 
 Cliquez sur le service OverTheBox que vous souhaitez associer à votre boitier.
 
