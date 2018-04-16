@@ -52,7 +52,7 @@ Sur la ligne Multipath TCP, séléctionnez "enabled"
 
 En bas de la page dans la section DHCP Server, cochez la case "Disable DHCP for this interface."
 
-##Activation et Configuration de l’OTB sur la connexion secondaire
+## Activation et Configuration de l’OTB sur la connexion secondaire
 
 Insérer votre clef 3G/4G contenant votre carte sim sur n’importe quel port USB de votre boitier OverTheBox.
 
