@@ -26,3 +26,7 @@
 ## 13/04/2018
 - Modification du fichier preseed.cfg pour corriger certaines erreurs.
 - Lecture de documents sur Salt et OverTheBox
+
+# Semaine 02
+## 16/04/2018
+- Création d'un nouveau dépôt Git public
