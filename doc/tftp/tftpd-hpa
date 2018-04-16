@@ -1,0 +1,9 @@
+# /etc/default/tftpd-hpa
+
+TFTP_USERNAME="tftp"
+TFTP_DIRECTORY="/var/lib/tftpboot"
+TFTP_ADDRESS="192.168.0.253:69"
+TFTP_OPTIONS="--secure"
+
+#Defaults for tftpd-hpa
+RUN_DAEMON="yes"

@@ -1,0 +1,17 @@
+$ORIGIN .
+$TTL 604800	; 1 week
+test.lan		IN SOA	ns.test.lan. root.test.lan. (
+				2018040905 ; serial
+				604800     ; refresh (1 week)
+				86400      ; retry (1 day)
+				2419200    ; expire (4 weeks)
+				604800     ; minimum (1 week)
+				)
+			NS	ns.test.lan.
+$ORIGIN test.lan.
+dhcp			A	192.168.0.253
+gateway			A	192.168.0.254
+ns			A	192.168.0.253
+$TTL 300	; 5 minutes
+poste1			A	192.168.0.2
+			TXT	"00029e6860d9ff04bd8d17c39752d63e27"
