@@ -30,4 +30,12 @@
 # Semaine 02
 ## 16/04/2018
 - Création d'un nouveau dépôt Git public.
-- Insatllation et configuration d'OverTheBox sur Raspberry pi 3.
+- Installation et configuration d'OverTheBox sur Raspberry pi 3.
+
+## 17/04/2018
+- Installation et configuration de keepalived.
+- Installation et configuration de 2 serveurs maitre Salt en redondance.
+- Réalisations de docs sur Salt et keepalived.
+- Lecture de doc sur OpenVPN
+
+
