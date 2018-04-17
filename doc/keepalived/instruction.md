@@ -16,7 +16,7 @@ Créer un fichier de configuration sur le serveur principal
 
     vi /etc/keepalived/keepalived.conf
 
-Copier coller la configuration suivante en adaptant le nom de l'interface (l.3), le mot de passe (l.9) et l'adresse Ip virtuelle (l.12) : [`keepalived.conf`](doc/keepalived/keepalived-principal.conf).
+Copier coller la configuration suivante en adaptant le nom de l'interface (l.3), le mot de passe (l.9) et l'adresse Ip virtuelle (l.12) : [`keepalived.conf`](keepalived-principal.conf).
 
 ### Serveur secondaire
 
@@ -24,7 +24,7 @@ Créer un fichier de configuration sur le serveur secondaire.
 
     vi /etc/keepalived/keepalived.conf
 
-Copier coller la configuration suivante en adaptant le nom de l'interface (l.3), le mot de passe (l.9) et l'adresse Ip virtuelle (l.12) : [`keepalived.conf`](doc/keepalived/keepalived-secondaire.conf).
+Copier coller la configuration suivante en adaptant le nom de l'interface (l.3), le mot de passe (l.9) et l'adresse Ip virtuelle (l.12) : [`keepalived.conf`](keepalived-secondaire.conf).
 
 
 ## sysctl
