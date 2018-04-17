@@ -33,7 +33,7 @@ Ajouter cette ligne à la fin du fichier
 
     */2 * * * * root rsync --exclude="/etc/salt/pki/master/master.pem" --exclude="/etc/salt/pki/master/master.pub" -e ssh -avz /etc/salt/pki/master/ root@192.168.0.251:/etc/salt/pki/master/
 
-Demmarrer le service salt-master
+Démarrer le service salt-master
 
     service salt-master start
 
@@ -47,13 +47,13 @@ Editer `/etc/salt/minion`
 
 Dé-commenter la ligne `master : salt`
 
-Modifier `salt` par l'adresse IP virtuelle des deux serveurs maitres configurées avec keepalived
+Modifier `salt` par l'adresse IP virtuelle des deux serveurs maitres configurés avec keepalived
 
     master: 192.168.0.250
 
 Fermer le fichier
 
-Redemmarer le service salt-minion
+Redémarer le service salt-minion
 
     service salt-minion restart
 
