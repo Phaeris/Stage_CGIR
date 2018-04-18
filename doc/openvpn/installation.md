@@ -94,3 +94,32 @@ Sur le serveur :
     source vars
     ./build-key OTB
 
+## Openvpn sur le poste client
+
+    scp root@ip_du_serveur:/etc/openvpn/easy-rsa/keys/ca.crt /tmp/
+    scp root@ip_du_serveur:/etc/openvpn/easy-rsa/keys/OTB.key /tmp/
+    scp root@ip_du_serveur:/etc/openvpn/easy-rsa/keys/OTB.crt /tmp/
+
+On copie le fichier de configuration et certificats
+
+    cd /etc/openvpn
+    mkdir -p keys
+    cd keys
+
+Coller dans le dossiers en cours (keys) les fichiers suivants :
+
+    mv /tmp/ca.crt /etc/openvpn/keys/
+    mv /tmp/clientCert.key /etc/openvpn/keys/
+    mv /tmp/clientCert.crt /etc/openvpn/keys/
+
+## Création du fichier de configuration sur le client
+
+Copier le contenu du fichier [`client.conf`](client.conf) dans le fichier `/etc/openvpn/client.conf`
+
+## Test de connection
+
+    openvpn /etc/openvpn/client.conf
+
+## Démarrer openvpn
+
+    service openvpn start
