@@ -38,4 +38,23 @@
 - Réalisations de docs sur Salt et keepalived.
 - Lecture de doc sur OpenVPN
 
+## 18/04/2018
+- Installation d'openvpn server sur 'gateway'
+- Installation d'openvpn client sur l'OTB
 
+## 19/04/2018
+- Réalisation de doc sur l'installation d'openvpn
+
+# Semaine 03
+## 23/04/2018
+- Déplacement sur Douai pour mettre l'OTB en production.
+
+## 24/04/2018
+- Prise en main du logiciel GraphViz pour la réalisation de schema réseaux
+- Réalisation d'un schema réseaux de l'infrastructure virtuelle installée sur le Proxmox avec un fichier .dot
+
+## 25/04/2018
+- Réalisation d'un schema réseaux de l'infrastructure virtuelle installée sur le Proxmox avec un script python.
+
+## 26/04/2018
+- Déplacement sur Douai pour installer un nouveau téléphone et reconfigurer un TPE.
